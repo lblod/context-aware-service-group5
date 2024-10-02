@@ -13,3 +13,13 @@ Part of FOAF terms by class and property:
 
 More research has to be performed in order to find the best ontology to be used to convey the context information we
 need in LPDC. FOAF is most probably just a part of it. We might look at SOUPA or CoDAMoS.
+
+## Build using Maven
+```
+$> cd {projects root}
+$> mvn clean package
+```
+## Build container image
+```
+$> docker build -t context-aware-service:latest .
+```
